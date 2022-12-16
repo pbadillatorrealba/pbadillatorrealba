@@ -35,7 +35,7 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently 
 - 🏫 I hold a master's degree in computer science from the [University of Chile ](https://www.dcc.uchile.cl/).
 - 👷 I have worked as a front-end developer as well as a data scientist before.
 - 🌟 I'm the main maintainer of [WEFE: The Word Embeddings Fairness Evaluation Framework](https://wefe.readthedocs.io/en/latest/), an open source library for measuring and mitigating bias in word embedding models.
-- 📹 I have been a part-time lecturer at the University of Chile. Check out the videos at the following [youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS).
+- 📹 I have been a part-time lecturer at the University of Chile. Check out the videos at the following [youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS) and the course material [here](https://github.com/pbadillatorrealba/MDS7202).
 - 🥕 I really enjoy cooking and outdoor sports such as cycling or hiking.
 - 📸 I also like photography, but I don't know much about it.
 
@@ -48,7 +48,7 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently 
 <br>
 <br>
 
-## Technologies
+## Tech Stack 🛠️
 
 Programming Languages
 
