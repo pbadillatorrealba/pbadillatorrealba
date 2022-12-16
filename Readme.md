@@ -31,7 +31,7 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently 
 
 <br>
 
-- 💙 My main interests are Machine Learning, Natural Language Processing and Software Development. I also really enjoy teaching!
+- 💙 My main interests are Machine Learning, Natural Language Processing, MLOps and ML-based Software Development. I also really enjoy teaching!
 - 🏫 I hold a master's degree in computer science from the [University of Chile ](https://www.dcc.uchile.cl/).
 - 👷 I have worked as a front-end developer as well as a data scientist before.
 - 🌟 I'm the main maintainer of [WEFE: The Word Embeddings Fairness Evaluation Framework](https://wefe.readthedocs.io/en/latest/), an open source library for measuring and mitigating bias in word embedding models.
