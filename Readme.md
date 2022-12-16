@@ -7,7 +7,13 @@
 
 <br>
 
-Hi, my name is Pablo Badilla Torrealba and I work as a Machine Learning Engineer at [Centro Nacional de Inteligencia Artificial](https://cenia.cl/).
+<div align="center">
+
+Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently working as a Machine Learning Engineer at [Centro Nacional de Inteligencia Artificial](https://cenia.cl/).
+
+</div>
+
+<br>
 
 <p align="center">
     <a href="https://www.linkedin.com/in/pablo-badilla-torrealba-473b2315b/">
@@ -25,12 +31,13 @@ Hi, my name is Pablo Badilla Torrealba and I work as a Machine Learning Engineer
 
 <br>
 
+- 💙 My main interests are Machine Learning, Natural Language Processing and Software Development. I also really enjoy teaching!
 - 🏫 I hold a master's degree in computer science from the [University of Chile ](https://www.dcc.uchile.cl/).
 - 👷 I have worked as a front-end developer as well as a data scientist before.
 - 🌟 I'm the main maintainer of [WEFE: The Word Embeddings Fairness Evaluation Framework](https://wefe.readthedocs.io/en/latest/), an open source library for measuring and mitigating bias in word embedding models.
-- 📹 I have been a part-time lecturer at the University of Chile. You can check out the classes at the [following youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS).
-- 🥕🚵🏔️ I really enjoy cooking and outdoor sports such as cycling or hiking.
-- 📸 I like photography, but I don't know much about it.
+- 📹 I have been a part-time lecturer at the University of Chile. Check out the videos at the following [youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS).
+- 🥕 I really enjoy cooking and outdoor sports such as cycling or hiking.
+- 📸 I also like photography, but I don't know much about it.
 
 <br>
 
