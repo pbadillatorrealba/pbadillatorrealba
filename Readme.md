@@ -25,6 +25,9 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently 
     <a href="CV.pdf">
         <img src="https://img.shields.io/badge/Resume-Blue?style=for-the-badge&logoColor=white"/>
     </a>
+    <a href="CV_es.pdf">
+        <img src="https://img.shields.io/badge/Resume (in spanish)-a?style=for-the-badge&logoColor=white"/>
+    </a>
 </p>
 
 ## Some info 😺
