@@ -44,6 +44,7 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently 
 - 📸 I also like photography, but I don't know much about it.
 
 <br>
+<br>
 
 <div align='center'>
 <img src="https://github-readme-stats.vercel.app/api?username=pbadillatorrealba&count_private=true&show_icons=true&custom_title=Github&theme=chartreuse-dark&bg_color=0,000000,130F40&layout=compact&border_radius=8">
