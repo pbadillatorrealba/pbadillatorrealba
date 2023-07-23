@@ -9,7 +9,7 @@
 
 <div align="center">
 
-Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently working as a Data Scientist at [BCI](https://www.bci.cl/).
+Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently working as a Machine Learning Engineer at [Walmart Chile](https://www.walmartchile.cl/).
 
 </div>
 
@@ -42,7 +42,7 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently 
 - 🤝 I collaborate with the development of [DashAI](https://github.com/DashAISoftware/DashAI), a graphical toolbox for training, evaluating and deploying state-of-the-art AI models.
 - 📹 I have been a part-time lecturer at the University of Chile. Check out the videos at the following [youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS) and the course material [here](https://github.com/pbadillatorrealba/MDS7202).
 - 🥕 I really enjoy cooking and outdoor sports such as cycling or hiking.
-- 📸 I also like photography, but I don't know much about it.
+- 📸 I also like photography, but I still have a lot to learn!
 
 <br>
 <br>
@@ -68,7 +68,7 @@ Data Science and Machine Learning Frameworks
 ![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat-square&logo=plotly&logoColor=white])
 ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white])
 ![Pytorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white])
-![MLFlow](https://img.shields.io/badge/MLflow-0194E2.svg?style=flat-square&logo=MLflow&logoColor=white)
+![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=flat-square&logo=numpy&logoColor=blue)
 ![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C.svg?style=flat-square&logo=Apache-Spark&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=Databricks&logoColor=white)
 ![PSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
@@ -81,6 +81,9 @@ Enviroments, Containers, Deploy, CI, etc.
 ![Github](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
 ![Github Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
+Other
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB)
 
 Cloud
 
