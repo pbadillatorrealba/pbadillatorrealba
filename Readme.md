@@ -22,7 +22,7 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently 
     <a href="mailto:pbadilla.torrealba@gmail.com">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
     </a>
-    <a href="CV.pdf">
+    <a href="CV_en.pdf">
         <img src="https://img.shields.io/badge/Resume-Blue?style=for-the-badge&logoColor=white"/>
     </a>
     <a href="CV_es.pdf">
