@@ -9,8 +9,7 @@
 
 <div align="center">
 
-Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently working as a Machine Learning Engineer at [Walmart Chile](https://www.walmartchile.cl/).
-
+Hello! My name is Pablo Badilla, I live in Santiago de Chile and I work currently as Machine Learning Engineer.
 </div>
 
 <br>
@@ -26,7 +25,7 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I am currently 
         <img src="https://img.shields.io/badge/Resume-Blue?style=for-the-badge&logoColor=white"/>
     </a>
     <a href="CV_es.pdf">
-        <img src="https://img.shields.io/badge/Resume (in spanish)-a?style=for-the-badge&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Resume in spanish-a?style=for-the-badge&logoColor=white"/>
     </a>
 </p>
 
