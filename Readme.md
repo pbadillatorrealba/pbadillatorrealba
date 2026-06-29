@@ -9,7 +9,9 @@
 
 <div align="center">
 
-Hello! My name is **Pablo Badilla Torrealba**, I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https://idia.uchile.cl/)** (Iniciativa de Datos e Inteligencia Artificial), Universidad de Chile.
+Hello! My name is **Pablo Badilla Torrealba**, 
+
+I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https://idia.uchile.cl/)** (Iniciativa de Datos e Inteligencia Artificial), Universidad de Chile.
 </div>
 
 <br>
