@@ -9,7 +9,7 @@
 
 <div align="center">
 
-Hello! My name is **Pablo Badilla Torrealba**
+### Hello! My name is **Pablo Badilla Torrealba**
 
 I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https://idia.uchile.cl/)** (Iniciativa de Datos e Inteligencia Artificial), Universidad de Chile.
 </div>
@@ -33,8 +33,6 @@ I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https:
 
 ## About Me 😺
 
-<br>
-
 - 💙 My main interests are **Machine Learning**, **Natural Language Processing**, **Language Models** and **ML-based Software Development**. I also really enjoy teaching!
 - 🏫 I hold a **master's degree in computer science** from the [University of Chile ](https://www.dcc.uchile.cl/) which was gratefully supervised by [Felipe Bravo-Márquez](https://felipebravom.com/).
 - 🏛️ I currently **lead the technology transfer area at [IDIA](https://idia.uchile.cl/)**, an initiative that brings together the main FCFM departments (DIE, DII, DCC, DIM) to articulate research, technology transfer, teaching, and project capabilities at Universidad de Chile.
@@ -43,9 +41,6 @@ I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https:
 - 📹 I have been several times part-time lecturer at the University of Chile. For the MDS7202 Scientific Programming Lab for Data Science material, check out the videos at the following [youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS) and the course material [here](https://github.com/pbadillatorrealba/MDS7202).
 - 🥕 I really enjoy cooking and outdoor sports such as cycling or hiking.
 - 📸 I also like photography, but I still have a lot to learn!
-
-<br>
-
 
 ## Experience 💼
 
@@ -67,8 +62,6 @@ Some places I've worked and interesting things I've done:
 - **Freelance** · Data Scientist & Full Stack Developer · Jul 2019 – Jan 2021
   - Topic detection system (Transformers) for constitutional process analysis; OCR-based text extraction for credit documents.
 
-<br>
-
 ## Publications 📄
 
 - **WEFE: A Python Library for Measuring and Mitigating Bias in Word Embeddings**
@@ -80,7 +73,6 @@ Some places I've worked and interesting things I've done:
   Pablo Badilla, Felipe Bravo-Marquez, Jorge Pérez.
   *IJCAI-20*, pp. 430–436, 2020.
   [Link](https://doi.org/10.24963/ijcai.2020/60)
-
 
 ## Tech Stack 🛠️
 
