@@ -9,7 +9,7 @@
 
 <div align="center">
 
-Hello! My name is Pablo Badilla, I live in Santiago de Chile and I work currently as Tech Lead at IDIA (Iniciativa de Datos e Inteligencia Artificial), Universidad de Chile.
+Hello! My name is **Pablo Badilla Torrealba**, I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https://idia.uchile.cl/)** (Iniciativa de Datos e Inteligencia Artificial), Universidad de Chile.
 </div>
 
 <br>
@@ -29,7 +29,7 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I work currentl
     </a>
 </p>
 
-## Some info 😺
+## About Me 😺
 
 <br>
 
@@ -41,6 +41,9 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I work currentl
 - 📹 I have been several times part-time lecturer at the University of Chile. For the MDS7202 Scientific Programming Lab for Data Science material, check out the videos at the following [youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS) and the course material [here](https://github.com/pbadillatorrealba/MDS7202).
 - 🥕 I really enjoy cooking and outdoor sports such as cycling or hiking.
 - 📸 I also like photography, but I still have a lot to learn!
+
+<br>
+
 
 ## Experience 💼
 
@@ -62,7 +65,6 @@ Some places I've worked and interesting things I've done:
 - **Freelance** · Data Scientist & Full Stack Developer · Jul 2019 – Jan 2021
   - Topic detection system (Transformers) for constitutional process analysis; OCR-based text extraction for credit documents.
 
-<br>
 <br>
 
 ## Publications 📄
