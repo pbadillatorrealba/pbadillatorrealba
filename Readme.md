@@ -65,13 +65,6 @@ Some places I've worked and interesting things I've done:
 <br>
 <br>
 
-<div align='center'>
-<img src="https://github-readme-stats.vercel.app/api?username=pbadillatorrealba&count_private=true&show_icons=true&custom_title=Github&theme=chartreuse-dark&bg_color=0,000000,130F40&layout=compact&border_radius=8">
-</div>
-
-<br>
-<br>
-
 ## Publications 📄
 
 - **WEFE: A Python Library for Measuring and Mitigating Bias in Word Embeddings**
