@@ -1,7 +1,7 @@
 # Hi there 👋
 
 <div align="center">
-    <img src='banner.jpg' style="border-radius: 12px"> 
+    <img src='https://raw.githubusercontent.com/pbadillatorrealba/pbadillatorrealba/refs/heads/master/public/banner.jpg' style="border-radius: 12px"> 
     <em>A photo of Hornopirén, on the Carretera Austral taken a few years ago.</em>
 </div>
 
@@ -21,10 +21,10 @@ Hello! My name is Pablo Badilla, I live in Santiago de Chile and I work currentl
     <a href="mailto:pbadilla.torrealba@gmail.com">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
     </a>
-    <a href="public/CV_EN.pdf">
+    <a href="https://raw.githubusercontent.com/pbadillatorrealba/pbadillatorrealba/refs/heads/master/public/CV_EN.pdf">
         <img src="https://img.shields.io/badge/Resume-Blue?style=for-the-badge&logoColor=white"/>
     </a>
-    <a href="public/CV_ES.pdf">
+    <a href="https://raw.githubusercontent.com/pbadillatorrealba/pbadillatorrealba/refs/heads/master/public/CV_ES.pdf">
         <img src="https://img.shields.io/badge/Resume in spanish-a?style=for-the-badge&logoColor=white"/>
     </a>
 </p>
