@@ -1,0 +1,280 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+
+\definecolor{sectioncolor}{RGB}{30, 100, 180}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=sectioncolor,
+    linkcolor=sectioncolor
+}
+
+\titleformat{\section}
+  {\large\bfseries\color{sectioncolor}}
+  {}{0em}{}[\titlerule]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% ─── Encabezado ────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\textbf{Pablo Fernando Badilla Torrealba}} \\[4pt]
+  \faEnvelope\ \href{mailto:pbadilla.torrealba@gmail.com}{pbadilla.torrealba@gmail.com}
+  \quad
+  \faLinkedin\ \href{https://www.linkedin.com/in/pablo-badilla-torrealba-473b2315b/}{pablo-badilla-torrealba}
+  \quad
+  \faPhone\ +56 9 7139 6025
+  \quad
+  \faGithub\ \href{https://github.com/pbadillatorrealba}{pbadillatorrealba}
+\end{center}
+
+% ─── Resumen Profesional ────────────────────────────────────────────────────────
+\section{Resumen Profesional}
+
+Ingeniero Civil en Computación y Magíster en Ciencias de la Computación especializado en
+Ciencia de Datos, Machine Learning e IA Generativa, con más de 7 años de experiencia
+liderando e implementando sistemas productivos para banca, retail, academia y start-ups,
+entre otros.
+
+Ha liderado equipos técnicos con enfoque en gestión de clientes, arquitectura de sistemas
+escalables y mentoría, promoviendo la creación de productos de alto estándar, buenas
+prácticas y ejecución sólida de principio a fin.
+
+% ─── Antecedentes Laborales ────────────────────────────────────────────────────
+\section{Antecedentes Laborales}
+
+\textbf{Iniciativa de Datos e Inteligencia Artificial (IDIA) -- Universidad de Chile} \hfill Santiago, Chile \\
+\textit{Tech Lead, Área de Transferencia Tecnológica} \hfill Abril 2026 -- Presente
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Construcción y Definición del Área:} Liderazgo en la definición y
+        estructuración del área de transferencia tecnológica dentro de IDIA, iniciativa que
+        reúne a los principales actores académicos de la FCFM (DIE, DII, DCC, DIM) para
+        articular capacidades en investigación, transferencia, docencia y proyectos.
+  \item \textbf{ETL basado en IA -- Ministerio de las Culturas:} Desarrollo de sistema de
+        extracción y transformación automática de datos de indicadores (ETL basado en IA)
+        usando Python, LLMs/IA Generativa y FastAPI, permitiendo al Ministerio procesar
+        automáticamente datos de indicadores culturales.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Banco Falabella} \hfill Santiago, Chile \\
+\textit{Data Scientist} \hfill Agosto 2024 -- Abril 2026
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Productos y Beneficios:} Chat con Agentes de IA para consultas sobre
+        productos, beneficios, operaciones y sucursales en Chile, Colombia, México y Perú.
+        +100k atenciones mensuales, reducción del 80\% de costos, latencia y experiencia de
+        usuario mejoradas. Gestión de relaciones con clientes internos en todos los países en
+        colaboración con equipo de Canales Digitales.
+  \item \textbf{Desconocimiento de transacciones:} Desarrollo y puesta en marcha del
+        proyecto enfocado en iniciar un proceso de desconocimiento de transacción por fraude
+        en transacciones no conciliadas. Primera iniciativa de IA publicada por el banco,
+        abriendo las puertas a proyectos más complejos y a estrategia basada en IA.
+        Colaboración con equipo de Canales Digitales.
+  \item \textbf{Librería Servidor Concurrente de Conversaciones:} Diseño e implementación
+        de librería basada en algoritmos concurrentes y distribuidos para coordinar
+        conversaciones en distintos casos de uso de IA. Base para los nuevos proyectos
+        basados en IA conversacional.
+  \item \textbf{Mentoría:} Mentoría en desarrollo conceptual de agentes conversacionales
+        basados en IA, tecnologías (LangChain/LangGraph/LangFuse, RAG, etc.), tecnologías
+        Backend (FastAPI, SQLAlchemy, Pydantic, Asyncio, etc.) y uso de IA aplicada al
+        desarrollo (Copilot) al equipo.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Walmart Chile} \hfill Santiago, Chile \\
+\textit{Machine Learning Engineer} \hfill Abril 2023 -- Abril 2024
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Call Center Timeseries:} Desarrollo y despliegue de modelo de timeseries
+        basado en Machine Learning para la predicción de demanda diaria del Call Center.
+        Reducción del error de un 60\% a un 20\%. Evaluación mediante A/B testing y shadow
+        deployment con métricas de ML y KPIs asociados a costos. Planificación de hitos y
+        presentación conjunta de avances y resultados a clientes internos del equipo de
+        operaciones junto con PO.
+  \item \textbf{Simulación de tiempos de espera en Colas:} Optimización de proyecto para
+        medir tiempos de espera en colas según formato (Lider, Express, Acuenta, Central
+        Mayorista) y tipo de caja (MM1 y MMS) usando teoría de colas. Refactorización
+        sustancial de arquitectura y rendimiento del sistema.
+  \item \textbf{Customer Lifetime Value (CLV):} Reimplementación del modelo Customer
+        Lifetime Value para el área de Marketing, permitiendo campañas personalizadas según
+        segmento de cliente detectado.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{DashAI} \hfill Santiago, Chile \\
+\textit{Tech Lead} \hfill Enero 2023 -- Junio 2024
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Liderazgo del Equipo de Desarrollo:} Liderazgo técnico de equipo de 5
+        desarrolladores (memoristas Universidad de Chile). Responsable de guiar diversos
+        proyectos e iniciativas en aspectos técnicos y arquitectónicos.
+  \item \textbf{Gestión y Coordinación:} Dirección del equipo, ejecución de ceremonias
+        (dailies, plannings, refinamientos, etc.), definición de requisitos técnicos y de
+        integración. Repositorio:
+        \href{https://github.com/DashAISoftware/DashAI}{github.com/DashAISoftware/DashAI}
+  \item \textbf{Postulación a fondos y Transferencia Tecnológica:} Postulación a FONDEF
+        2023. Generación de modelo de negocios y plan para productivizar la aplicación y el
+        framework conceptual de la plataforma. Diseño de estrategia de transferencia
+        tecnológica, análisis de competidores y modelo de negocios.
+  \item \textbf{Construcción de componentes Core:} Creación de Registro de Componentes
+        (Plugins), inyección de dependencias, integración de subproyectos, test masivos,
+        Front-end inicial, buenas prácticas de desarrollo (CI, tests, verificación estática
+        de código, tipado), etc.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{BCI} \hfill Santiago, Chile \\
+\textit{Data Scientist} \hfill Febrero 2023 -- Mayo 2023
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Features para evaluación de riesgo crediticio:} Creación de features
+        basadas en comportamiento transaccional de clientes para explorar mejoras en modelos
+        de evaluación de riesgo crediticio.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Centro Nacional de Inteligencia Artificial -- CENIA} \hfill Santiago, Chile \\
+\textit{Machine Learning Engineer} \hfill Enero 2022 -- Enero 2023
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Modelo ML End-to-End para VRP:} Diseño y despliegue de modelo de Machine
+        Learning que permite incorporar preferencias de usuario en el cálculo de soluciones
+        del Problema de Enrutamiento de Vehículos (VRP). Comunicación con cliente,
+        presentaciones de avances, gestión de hitos y entregas en colaboración con equipo de
+        Optimización. Entrega de paquete completo listo para despliegue en sistemas internos.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Universidad de Chile} \hfill Santiago, Chile \\
+\textit{Profesor Part-Time} \hfill Marzo 2021 -- Julio 2024
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Docente Laboratorio de Programación Científica para Ciencia de Datos:}
+        Docente del curso de Laboratorio de Programación Científica para Ciencia de Datos
+        para el Magíster en Ciencia de Datos (MDS) de la Universidad de Chile.
+  \item \textbf{Docente Manejo y Extracción de Datos en Python:} Docente del curso de
+        Manejo y Extracción de Datos en Python del Diploma en Python aplicado a la Ciencia
+        de Datos del Departamento de Ciencias de la Computación de la Universidad de Chile.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Kwiyx SPA} \hfill Santiago, Chile \\
+\textit{Desarrollador Full Stack} \hfill Abril 2020 -- Enero 2021
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{App de inversión inmobiliaria:} Creación del front-end de aplicación de
+        inversión inmobiliaria.
+  \item \textbf{Gestión de recursos humanos en hospitales:} Desarrollo full-stack de
+        aplicación para la gestión de recursos humanos en hospitales en pandemia basada en
+        optimización de turnos.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Desarrollador Freelance} \hfill Santiago, Chile \\
+\textit{Data Scientist y Desarrollador Full Stack} \hfill Julio 2019 -- Enero 2021
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Sistema de Detección de Tópicos -- Universidad de Chile \& Fundación Tribu:}
+        Construcción de sistema de detección de tópicos usando embeddings de Transformers
+        para análisis del encuentro participativo 2019 de ``Lxs 400'' en torno a la nueva
+        Constitución.
+  \item \textbf{Detección Automática de Texto -- Sotta y CIA:} Desarrollo de sistema basado
+        en OCR + Regex para la extracción automática de texto de pagarés de deudas de
+        créditos automotrices.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Acción Circular} \hfill Santiago, Chile \\
+\textit{Desarrollador Full Stack} \hfill Abril 2019 -- Julio 2019
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Sistema de gestión de residuos reciclables:} Diseño e implementación de
+        software para la gestión de recolección de residuos reciclables.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Cognus Consulting} \hfill Santiago, Chile \\
+\textit{Data Analyst Intern} \hfill Diciembre 2017 -- Febrero 2018
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Solución de Data Warehousing y Business Intelligence:} Construcción de
+        solución de Data Warehousing, Business Intelligence y visualizaciones usando Pentaho.
+\end{itemize}
+
+% ─── Proyectos ──────────────────────────────────────────────────────────────────
+\section{Proyectos}
+
+\textbf{Word Embeddings Fairness Evaluation Framework} (Enero 2020 -- Junio 2025): \\
+Liderazgo y desarrollo de una librería para la medición y mitigación de sesgos de género,
+étnicos y religiosos en modelos de embeddings de palabras (precursores a modelos de
+lenguaje). 2 papers publicados, 182 estrellas en GitHub. \\
+Repositorio: \href{https://github.com/dccuchile/wefe}{github.com/dccuchile/wefe} \quad
+Documentación: \href{https://wefe.readthedocs.io}{wefe.readthedocs.io}
+
+% ─── Antecedentes Académicos ───────────────────────────────────────────────────
+\section{Antecedentes Académicos}
+
+\textbf{Magíster en Ciencias de la Computación} \hfill Santiago, Chile \\
+\textit{Universidad de Chile} \hfill 2019 -- 2020
+
+\vspace{4pt}
+\textbf{Ingeniería Civil en Computación} \hfill Santiago, Chile \\
+\textit{Universidad de Chile} \hfill 2013 -- 2019
+
+% ─── Publicaciones ─────────────────────────────────────────────────────────────
+\section{Publicaciones}
+
+\textbf{WEFE: A Python Library for Measuring and Mitigating Bias in Word Embeddings} \\
+Pablo Badilla, Felipe Bravo-Marquez, María José Zambrano, Jorge Pérez. \\
+\textit{Journal of Machine Learning Research}, Vol. 26, No. 156, pp. 1--6, 2025. \\
+\href{http://jmlr.org/papers/v26/22-1133.html}{http://jmlr.org/papers/v26/22-1133.html}
+
+\vspace{6pt}
+\textbf{WEFE: The Word Embeddings Fairness Evaluation Framework} \\
+Pablo Badilla, Felipe Bravo-Marquez, Jorge Pérez. \\
+\textit{Proceedings of the Twenty-Ninth International Joint Conference on Artificial
+Intelligence (IJCAI-20)}, pp. 430--436, 2020. \\
+\href{https://doi.org/10.24963/ijcai.2020/60}{https://doi.org/10.24963/ijcai.2020/60}
+
+% ─── Habilidades y Herramientas ────────────────────────────────────────────────
+\section{Habilidades y Herramientas}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, topsep=3pt]
+  \item \textbf{Idiomas:} Español Nativo, Inglés B2 TOEFL-ITP
+  \item \textbf{Lenguajes de Programación:} Python (Avanzado), Javascript (Intermedio)
+  \item \textbf{IA Generativa:} LangChain, LangGraph, LangFuse, APIs de OpenAI, Gemini, Azure
+  \item \textbf{Ciencia de Datos:} Numpy, Pandas, SQL, BigQuery, Spark, JupyterLab, Plotly, DataBricks
+  \item \textbf{Machine Learning:} Scikit-Learn, XGBoost, LightGBM, PyTorch, HuggingFace
+  \item \textbf{Desarrollo Backend:} FastAPI, SQLAlchemy, Pydantic, Asyncio, Concurrencia, Inyección de Dependencias
+  \item \textbf{Cloud e Infraestructura:} Google Cloud Platform, VertexAI, Docker, Kubeflow
+  \item \textbf{Herramientas y Metodologías:} Kedro, Github Actions, Gitlab CI, Github Copilot, MLOps, Scrum
+  \item \textbf{Sistemas Operativos y Ofimática:} Windows, Linux, macOS, Microsoft Office, Google Docs, Sharepoint, OneDrive, Google Drive
+\end{itemize}
+
+% ─── Información Adicional ─────────────────────────────────────────────────────
+\section{Información Adicional}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, topsep=3pt]
+  \item Graduado de Ingeniería y Magíster con Distinción Máxima.
+  \item Estudiante destacado años 2016 y 2018: Facultad de Ciencias Físicas y Matemáticas,
+        Universidad de Chile.
+  \item Guía de Memoria de Título: Implementación de módulo de mitigación de sesgo en
+        modelos de embeddings de palabras en WEFE.
+  \item Docente Invitado: Charlas sobre Machine Learning Operations para varios cursos de
+        pre y postgrado en la Universidad de Chile.
+  \item \textbf{Microsoft College Code Competition:} Tercer lugar en Microsoft College Code
+        Competition 2018.
+  \item \textbf{Revisor de Papers:} Revisor secundario de la conferencia: The Joint
+        Conference of the 59th Annual Meeting of the Association for Computational Linguistics
+        and the 11th International Joint Conference on Natural Language Processing
+        (ACL-IJCNLP 2021).
+\end{itemize}
+
+\end{document}

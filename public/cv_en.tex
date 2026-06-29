@@ -1,0 +1,314 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\newcommand{\resumeItemNoColon}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubItemNoColon}[2]{\resumeItemNoColon{#1}{#2}\vspace{-4pt}}
+
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \textbf{\Huge Pablo Fernando Badilla Torrealba}
+
+  \vspace{12pt}
+
+\end{center}
+
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \faEnvelope\ \href{mailto:pbadilla.torrealba@gmail.com}{pbadilla.torrealba@gmail.com} & \faPhone\ +56971396025 \\
+  \faLinkedin\ \href{https://www.linkedin.com/in/pablo-badilla-torrealba/}{pablo-badilla-torrealba} & \faGithub\ \href{https://github.com/pbadillatorrealba}{pbadillatorrealba}
+\end{tabular*}
+
+% ─── Professional Summary ───────────────────────────────────────────────────────
+\section{Professional Summary}
+
+Computer Engineer and Master of Computer Science specialized in Data Science, Machine
+Learning, and Generative AI, with over 7 years of experience leading and implementing
+production systems for banking, retail, academia, and start-ups, among others.
+
+Has led technical teams with a focus on client management, scalable system architecture,
+and mentoring, promoting the creation of high-standard products, best practices, and
+solid end-to-end execution.
+
+% ─── Work Experience ────────────────────────────────────────────────────────────
+\section{Work Experience}
+
+\textbf{Iniciativa de Datos e Inteligencia Artificial (IDIA) -- Universidad de Chile} \hfill Santiago, Chile \\
+\textit{Tech Lead, Technology Transfer Area} \hfill April 2026 -- Present
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Area Building \& Definition:} Leadership in the definition and structuring
+        of the technology transfer area within IDIA, an initiative that brings together the
+        main academic departments of FCFM (DIE, DII, DCC, DIM) to articulate research,
+        transfer, teaching, and project capabilities.
+  \item \textbf{AI-based ETL -- Ministerio de las Culturas:} Development of an automated
+        indicator data extraction and transformation system (AI-based ETL) using Python,
+        LLMs/Generative AI, and FastAPI, enabling the Ministry of Culture to process
+        cultural indicator data automatically.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Banco Falabella} \hfill Santiago, Chile \\
+\textit{Data Scientist} \hfill August 2024 -- April 2026
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Products \& Benefits:} AI Agent-based chat for queries about products, benefits,
+        operations, and branches in Chile, Colombia, Mexico, and Peru. 100k+ monthly interactions,
+        80\% cost reduction, improved latency and user experience. Internal client relationship
+        management across all countries in collaboration with the Digital Channels team.
+  \item \textbf{Transaction Dispute:} Development and launch of a project focused on initiating
+        a fraud dispute process for unreconciled transactions. First AI initiative published by the
+        bank, opening the door to more complex projects and an AI-driven strategy. Collaboration
+        with the Digital Channels team.
+  \item \textbf{Concurrent Conversation Server Library:} Design and implementation of a library
+        based on concurrent and distributed algorithms to coordinate conversations across different
+        AI use cases. Foundation for new conversational AI projects.
+  \item \textbf{Mentoring:} Mentoring on conceptual development of AI conversational agents,
+        technologies (LangChain / LangGraph / LangFuse, RAG, etc.), backend technologies
+        (FastAPI, SQLAlchemy, Pydantic, Asyncio, etc.), and AI-assisted development (Copilot)
+        for the team.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Walmart Chile} \hfill Santiago, Chile \\
+\textit{Machine Learning Engineer} \hfill April 2023 -- April 2024
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Call Center Timeseries:} Development and deployment of a Machine Learning
+        timeseries model for daily demand forecasting at the Call Center. Error reduced from
+        60\% to 20\%. Evaluated via A/B testing and shadow deployment with ML metrics and
+        cost-related KPIs. Milestone planning and joint presentation of progress and results
+        to internal operations team clients together with the PO.
+  \item \textbf{Queue Wait-Time Simulation:} Optimization of a project measuring queue wait
+        times by store format (Lider, Express, Acuenta, Central Mayorista) and checkout type
+        (MM1 and MMS) using queuing theory. Substantial architectural and performance
+        refactoring of the system.
+  \item \textbf{Customer Lifetime Value (CLV):} Reimplementation of the Customer Lifetime
+        Value model for the Marketing area, enabling personalized campaigns by detected
+        customer segment.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{DashAI} \hfill Santiago, Chile \\
+\textit{Tech Lead} \hfill January 2023 -- June 2024
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Development Team Leadership:} Technical leadership of a team of 5 developers
+        (Universidad de Chile thesis students). Responsible for guiding various projects and
+        initiatives on technical and architectural aspects.
+  \item \textbf{Management \& Coordination:} Team direction, ceremony facilitation (dailies,
+        plannings, refinements, etc.), definition of technical and integration requirements.
+        Repository: \href{https://github.com/DashAISoftware/DashAI}{github.com/DashAISoftware/DashAI}
+  \item \textbf{Funding Application \& Technology Transfer:} FONDEF 2023 grant application.
+        Business model generation and plan to productize the application and its conceptual
+        framework. Technology transfer strategy design, competitor analysis, and business
+        model development.
+  \item \textbf{Core Component Development:} Creation of Component Registry (Plugins),
+        dependency injection, subproject integration, mass testing, initial front-end, and
+        development best practices (CI, tests, static code verification, typing), etc.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{BCI} \hfill Santiago, Chile \\
+\textit{Data Scientist} \hfill February 2023 -- May 2023
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Credit Risk Assessment Features:} Creation of features based on customer
+        transactional behavior to explore improvements in credit risk assessment models.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{National Center for Artificial Intelligence -- CENIA} \hfill Santiago, Chile \\
+\textit{Machine Learning Engineer} \hfill January 2022 -- January 2023
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{End-to-End ML Model for VRP:} Design and deployment of a Machine Learning
+        model that incorporates user preferences into solutions for the Vehicle Routing Problem
+        (VRP). Client communication, progress presentations, milestone and delivery management
+        in collaboration with the Optimization team. Delivery of a complete package ready for
+        deployment in internal systems.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Universidad de Chile} \hfill Santiago, Chile \\
+\textit{Part-Time Lecturer} \hfill March 2021 -- July 2024
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Scientific Programming Laboratory for Data Science:} Lecturer for the
+        Scientific Programming Laboratory for Data Science course in the Master in Data Science
+        (MDS) program at Universidad de Chile.
+  \item \textbf{Data Handling and Extraction in Python:} Lecturer for the Data Handling and
+        Extraction in Python course in the Python Applied to Data Science Diploma at the
+        Department of Computer Science, Universidad de Chile.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Kwiyx SPA} \hfill Santiago, Chile \\
+\textit{Full Stack Developer} \hfill April 2020 -- January 2021
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Real Estate Investment App:} Front-end development of a real estate investment
+        application.
+  \item \textbf{Hospital HR Management:} Full-stack development of an application for human
+        resources management in pandemic hospitals based on shift optimization.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Freelance Developer} \hfill Santiago, Chile \\
+\textit{Data Scientist \& Full Stack Developer} \hfill July 2019 -- January 2021
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Topic Detection System -- Universidad de Chile \& Fundación Tribu:}
+        Construction of a topic detection system using Transformer embeddings to analyze the
+        2019 participatory process of ``Lxs 400'' around the new Chilean Constitution.
+  \item \textbf{Automated Text Detection -- Sotta y CIA:} Development of an OCR + Regex-based
+        system for automatic text extraction from automotive credit promissory notes.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Acción Circular} \hfill Santiago, Chile \\
+\textit{Full Stack Developer} \hfill April 2019 -- July 2019
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Recyclable Waste Management System:} Design and implementation of software
+        for the management of recyclable waste collection.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{Cognus Consulting} \hfill Santiago, Chile \\
+\textit{Data Analyst Intern} \hfill December 2017 -- February 2018
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=3pt]
+  \item \textbf{Data Warehousing \& Business Intelligence Solution:} Construction of a
+        Data Warehousing, Business Intelligence, and visualization solution using Pentaho.
+\end{itemize}
+
+% ─── Projects ───────────────────────────────────────────────────────────────────
+\section{Projects}
+
+\textbf{Word Embeddings Fairness Evaluation Framework} (January 2020 -- June 2025): \\
+Leadership and development of a library for measuring and mitigating gender, ethnic, and
+religious biases in word embedding models (precursors to language models). 2 published
+papers, 182 GitHub stars. \\
+Repository: \href{https://github.com/dccuchile/wefe}{github.com/dccuchile/wefe} \quad
+Documentation: \href{https://wefe.readthedocs.io}{wefe.readthedocs.io}
+
+% ─── Education ──────────────────────────────────────────────────────────────────
+\section{Education}
+
+\textbf{Master of Computer Science} \hfill Santiago, Chile \\
+\textit{Universidad de Chile} \hfill 2019 -- 2020
+
+\vspace{4pt}
+\textbf{Computer Engineering (Civil)} \hfill Santiago, Chile \\
+\textit{Universidad de Chile} \hfill 2013 -- 2019
+
+% ─── Publications ───────────────────────────────────────────────────────────────
+\section{Publications}
+
+\textbf{WEFE: A Python Library for Measuring and Mitigating Bias in Word Embeddings} \\
+Pablo Badilla, Felipe Bravo-Marquez, María José Zambrano, Jorge Pérez. \\
+\textit{Journal of Machine Learning Research}, Vol. 26, No. 156, pp. 1--6, 2025. \\
+\href{http://jmlr.org/papers/v26/22-1133.html}{http://jmlr.org/papers/v26/22-1133.html}
+
+\vspace{6pt}
+\textbf{WEFE: The Word Embeddings Fairness Evaluation Framework} \\
+Pablo Badilla, Felipe Bravo-Marquez, Jorge Pérez. \\
+\textit{Proceedings of the Twenty-Ninth International Joint Conference on Artificial
+Intelligence (IJCAI-20)}, pp. 430--436, 2020. \\
+\href{https://doi.org/10.24963/ijcai.2020/60}{https://doi.org/10.24963/ijcai.2020/60}
+
+% ─── Skills & Tools ─────────────────────────────────────────────────────────────
+\section{Skills \& Tools}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, topsep=3pt]
+  \item \textbf{Languages:} Spanish (Native), English B2 TOEFL-ITP
+  \item \textbf{Programming Languages:} Python (Advanced), JavaScript (Intermediate)
+  \item \textbf{Generative AI:} LangChain, LangGraph, LangFuse, OpenAI API, Gemini, Azure
+  \item \textbf{Data Science:} NumPy, Pandas, SQL, BigQuery, Spark, JupyterLab, Plotly, Databricks
+  \item \textbf{Machine Learning:} Scikit-Learn, XGBoost, LightGBM, PyTorch, HuggingFace
+  \item \textbf{Backend Development:} FastAPI, SQLAlchemy, Pydantic, Asyncio, Concurrency, Dependency Injection
+  \item \textbf{Cloud \& Infrastructure:} Google Cloud Platform, Vertex AI, Docker, Kubeflow
+  \item \textbf{Tools \& Methodologies:} Kedro, GitHub Actions, GitLab CI, GitHub Copilot, MLOps, Scrum
+  \item \textbf{Operating Systems \& Office:} Windows, Linux, macOS, Microsoft Office, Google Workspace, SharePoint, OneDrive
+\end{itemize}
+
+% ─── Additional Information ──────────────────────────────────────────────────────
+\section{Additional Information}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, topsep=3pt]
+  \item Graduated from Engineering and Master's with Highest Distinction.
+  \item Outstanding Student 2016 and 2018: Faculty of Physical and Mathematical Sciences,
+        Universidad de Chile.
+  \item Thesis Supervisor: Implementation of a bias mitigation module for word embedding
+        models in WEFE.
+  \item Guest Lecturer: Talks on Machine Learning Operations for various undergraduate and
+        graduate courses at Universidad de Chile.
+  \item \textbf{Microsoft College Code Competition:} Third place in the Microsoft College Code
+        Competition 2018.
+  \item \textbf{Paper Reviewer:} Secondary reviewer at The Joint Conference of the 59th Annual
+        Meeting of the Association for Computational Linguistics and the 11th International Joint
+        Conference on Natural Language Processing (ACL-IJCNLP 2021).
+\end{itemize}
+
+\end{document}
