@@ -25,11 +25,11 @@ I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https:
     <a href="mailto:pbadilla.torrealba@gmail.com">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
     </a>
-    <a href="https://raw.githubusercontent.com/pbadillatorrealba/pbadillatorrealba/refs/heads/master/public/CV_EN.pdf">
+    <a href="https://raw.githubusercontent.com/pbadillatorrealba/pbadillatorrealba/refs/heads/master/public/cv_en.pdf">
         <img src="https://img.shields.io/badge/Resume-Blue?style=for-the-badge&logoColor=white"/>
     </a>
-    <a href="https://raw.githubusercontent.com/pbadillatorrealba/pbadillatorrealba/refs/heads/master/public/CV_ES.pdf">
-        <img src="https://img.shields.io/badge/Resume in spanish-a?style=for-the-badge&logoColor=white"/>
+    <a href="https://raw.githubusercontent.com/pbadillatorrealba/pbadillatorrealba/refs/heads/master/public/cv_es.pdf">
+        <img src="https://img.shields.io/badge/Resume_in_Spanish-a?style=for-the-badge&logoColor=white"/>
     </a>
 </p>
 
@@ -69,7 +69,7 @@ Some places I've worked and interesting things I've done:
 - **WEFE: A Python Library for Measuring and Mitigating Bias in Word Embeddings**
   Pablo Badilla, Felipe Bravo-Marquez, María José Zambrano, Jorge Pérez.
   *Journal of Machine Learning Research*, Vol. 26, No. 156, 2025.
-  [Link](http://jmlr.org/papers/v26/22-1133.html)
+  [Link](https://jmlr.org/papers/v26/22-1133.html)
 
 - **WEFE: The Word Embeddings Fairness Evaluation Framework**
   Pablo Badilla, Felipe Bravo-Marquez, Jorge Pérez.
@@ -94,13 +94,13 @@ Generative AI
 
 Data Science and Machine Learning Frameworks
 
-![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=flat-square&logo=numpy&logoColor=white])
-![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=flat-square&logo=pandas&logoColor=white])
-![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat-square&logo=plotly&logoColor=white])
-![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white])
+![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=flat-square&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat-square&logo=plotly&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-AA4A44?style=flat-square&logoColor=white)
 ![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square&logoColor=white)
-![Pytorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white])
+![Pytorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=flat-square&logo=numpy&logoColor=blue)
 ![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C.svg?style=flat-square&logo=Apache-Spark&logoColor=white)
