@@ -1,22 +1,16 @@
 \documentclass[letterpaper,11pt]{article}
 
-\usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
+\usepackage{xcolor}
+\definecolor{meta}{gray}{0.4}
 \usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
-\usepackage{fancyhdr}
-\usepackage{fontawesome5}
-
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+\usepackage{graphicx}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{hidelinks,pdftitle={Resume – Pablo Badilla Torrealba},pdfauthor={Pablo Badilla Torrealba},pdflang={en},pdfsubject={Resume},pdfkeywords={Tech Lead, Machine Learning Engineer, generative AI, LLMs, agents, RAG, MLOps, Python}}
+\usepackage[T1]{fontenc}
+\usepackage{libertinus}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.375in}
@@ -25,92 +19,93 @@
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
 
-\urlstyle{same}
-
 \raggedbottom
 \raggedright
-\setlength{\tabcolsep}{0in}
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-4pt}\scshape\large\raggedright
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-%-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{: #2\vspace{-2pt}}
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+\newcommand{\resumeSubheading}[4]{%
+  \Needspace{7\baselineskip}\vspace{-1pt}\item[]%
+    \textbf{#1}\hfill{\small\color{meta}#2}\\[1pt]
+    {\small #3}\hfill{\small\color{meta}#4}\vspace{-5pt}%
+}
+
+\newcommand{\resumeEducation}[3]{%
+  \Needspace{3\baselineskip}\vspace{-1pt}\item[]%
+    \textbf{#1}, #2\hfill{\small\color{meta}#3}\vspace{-3pt}%
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \newcommand{\resumeItemNoColon}[2]{
   \item\small{
-    \textbf{#1}{ #2 \vspace{-2pt}}
+    \textbf{#1}{ #2\vspace{-2pt}}
   }
 }
 
 \newcommand{\resumeSubItemNoColon}[2]{\resumeItemNoColon{#1}{#2}\vspace{-4pt}}
 
+\newcommand{\icon}[1]{\raisebox{-1.5pt}{\includegraphics[height=0.9em]{icons/#1.pdf}}\,}
 
-\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemii}{\textbullet}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%-----------CV STARTS HERE-----------------
 
 \begin{document}
 
 %----------HEADING-----------------
-\begin{center}
-  \textbf{\Huge Pablo Fernando Badilla Torrealba}
-
-  \vspace{12pt}
-
-\end{center}
-
-
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \faEnvelope\ \href{mailto:pbadilla.torrealba@gmail.com}{pbadilla.torrealba@gmail.com} & \faPhone\ +56971396025 \\
-  \faLinkedin\ \href{https://www.linkedin.com/in/pablo-badilla-torrealba/}{pablo-badilla-torrealba} & \faGithub\ \href{https://github.com/pbadillatorrealba}{pbadillatorrealba}
-\end{tabular*}
+{\raggedright
+  {\Huge\bfseries Pablo Fernando Badilla Torrealba}\\[10pt]
+  {\small\color{meta}
+  \icon{map-pin}Santiago, Chile \;\;
+  \icon{envelope-simple}\href{mailto:pbadilla.torrealba@gmail.com}{pbadilla.torrealba@gmail.com} \;\;
+  \icon{phone}+56 9 7139 6025 \;\;
+  \icon{linkedin-logo}\href{https://www.linkedin.com/in/pablo-badilla-torrealba/}{pablo-badilla-torrealba} \;\;
+  \icon{github-logo}\href{https://github.com/pbadillatorrealba}{pbadillatorrealba}}\par
+}
 
 \section{Professional Summary}
-Tech Lead and Machine Learning Engineer with more than 7 years designing and bringing AI, data, and software solutions into production for banking, retail, academia, and the public sector. Experience leading technical teams, defining scalable architectures, and turning generative AI prototypes into high-impact products.
-
-Experience leading technical teams, coordinating with clients, and transforming research capabilities into usable products, with a focus on scalable systems architecture, software development best practices, and end-to-end execution.
+Tech Lead and Machine Learning Engineer with more than 7 years articulating, designing, and bringing to production AI, data, and software solutions for banking, retail, academia, and the public sector. I lead technical teams, define scalable architectures, and turn generative AI prototypes, predictive models, data pipelines, and research capabilities into high-impact products, coordinating with clients and upholding software development best practices and end-to-end execution.
 
 %-----------EXPERIENCE-----------------
 \section{Work Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Data and Artificial Intelligence Initiative (IDIA) -- Universidad de Chile}{Santiago, Chile}
-      {Tech Lead}{April 2026 -- Present}
+      {Tech Lead}{Apr 2026 -- Present}
       \resumeItemListStart
+        \resumeItem{Project coordination and technical evaluation}
+          {Coordination and technical evaluation of multiple AI and data projects for the faculty, research centers, and private companies. Outreach activities: talks on MLOps and AI-assisted programming.}
         \resumeItem{Technical evaluation for FONDEQUIP application}
           {Evaluation of GPU requirements for LLM inference and neural network training, and collection of quotations.}
         \resumeItem{AI-based cultural indicators management}
-          {Implementation and technical leadership of a system for the automated extraction of ~50 cultural indicators for the Undersecretariat of Culture. Development of an advanced RAG-based pipeline with automated validation, together with a full-stack management app and public dashboard.}
+          {Implementation and technical leadership of a system for the automated extraction of \textasciitilde{}50 cultural indicators for the Undersecretariat of Culture. Development of an advanced RAG-based pipeline with automated validation, together with a full-stack management app and public dashboard.}
+        \resumeItem{Agentic platform for kinesiology routines}
+          {Design and development of an agentic platform that generates routines based on kinesiology recommendations.}
+        \resumeItem{Advisory for a shipping company}
+          {Advisory on implementing an agentic system for commercial queries about the Chilean export market, focused on commercial decision-making.}
+        \resumeItem{AWS Breaking Barriers Hackathon}
+          {Coordination of the Tornados project, a challenge from the Center for Climate and Resilience Research (CR2), and AI mentoring at the event in Chile.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Banco Falabella}{Santiago, Chile}
-      {Data Scientist}{August 2024 -- April 2026}
+      {Data Scientist}{Aug 2024 -- Apr 2026}
       \resumeItemListStart
       \resumeItem{Products and benefits}
             {Chat with AI agents for queries about products, benefits, operations, and branches in Chile, Colombia, Mexico, and Peru. +100k monthly interactions and an 80\% reduction in costs, as well as improvements in latency and user experience. Management of relationships with internal clients in all countries in collaboration with the Digital Channels team.}
@@ -124,7 +119,7 @@ Experience leading technical teams, coordinating with clients, and transforming 
 
     \resumeSubheading
       {Walmart Chile}{Santiago, Chile}
-      {Machine Learning Engineer}{April 2023 -- April 2024}
+      {Machine Learning Engineer}{Apr 2023 -- Apr 2024}
       \resumeItemListStart
         \resumeItem{Call Center demand forecasting}
           {Development and deployment of a Machine Learning-based time series model for daily Call Center demand forecasting. Reduction of error from 60\% to 20\%. Evaluation through A/B testing and shadow deployment with ML metrics and cost-related KPIs. Milestone planning and joint presentation of progress and results to internal clients from the operations team together with the PO.}
@@ -136,7 +131,7 @@ Experience leading technical teams, coordinating with clients, and transforming 
 
     \resumeSubheading
       {DashAI}{Santiago, Chile}
-      {Tech Lead}{January 2023 -- June 2024}
+      {Tech Lead}{Jan 2023 -- Jun 2024}
       \resumeItemListStart
         \resumeItem{Technical leadership and coordination}
           {Technical leadership of a team of five developers (thesis students from Universidad de Chile), team management, facilitation of ceremonies, and definition of technical and integration requirements. Repository: \href{https://github.com/DashAISoftware/DashAI}{GitHub repository}}
@@ -146,7 +141,7 @@ Experience leading technical teams, coordinating with clients, and transforming 
 
     \resumeSubheading
       {BCI}{Santiago, Chile}
-      {Data Scientist}{February 2023 -- May 2023}
+      {Data Scientist}{Feb 2023 -- May 2023}
       \resumeItemListStart
         \resumeItem{Features for credit risk assessment}
           {Creation of features based on customers' transactional behavior to explore improvements in credit risk assessment models.}
@@ -154,7 +149,7 @@ Experience leading technical teams, coordinating with clients, and transforming 
 
     \resumeSubheading
       {National Center for Artificial Intelligence -- CENIA}{Santiago, Chile}
-      {Machine Learning Engineer}{January 2022 -- January 2023}
+      {Machine Learning Engineer}{Jan 2022 -- Jan 2023}
       \resumeItemListStart
         \resumeItem{End-to-end ML model for VRP}
           {Design and deployment of a Machine Learning model that allows user preferences to be incorporated into the calculation of solutions to the Vehicle Routing Problem (VRP). Communication with clients, presentation of progress, milestone and delivery management in collaboration with the Optimization team. Delivery of a complete package ready for deployment in internal systems.}
@@ -162,15 +157,17 @@ Experience leading technical teams, coordinating with clients, and transforming 
 
     \resumeSubheading
       {Universidad de Chile}{Santiago, Chile}
-      {Part-time Lecturer}{March 2021 -- July 2024}
+      {Part-time Lecturer}{Mar 2021 -- Jul 2024; Jul 2026 -- Sep 2026}
       \resumeItemListStart
         \resumeItem{Teaching in Data Science}
           {Teaching in the Scientific Programming Laboratory for Data Science of the Master in Data Science (MDS) and in the Data Handling and Extraction in Python course of the Diploma in Python Applied to Data Science, both at Universidad de Chile.}
+        \resumeItem{AI agents course}
+          {Taught a course on AI agents for the DCC's PEC, jointly with IDIA, from basic concepts to advanced topics: RAG, multi-agent systems, evaluation, and more. 100+ students across 36 classes.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Kwiyx SPA}{Santiago, Chile}
-      {Full-stack Developer}{April 2020 -- January 2021}
+      {Full-stack Developer}{Apr 2020 -- Jan 2021}
       \resumeItemListStart
         \resumeItem{Full-stack application development}
           {Creation of the front-end of a real estate investment application and development of a human resources management system for hospitals during the pandemic, based on shift optimization.}
@@ -178,7 +175,7 @@ Experience leading technical teams, coordinating with clients, and transforming 
 
     \resumeSubheading
       {Freelance Developer}{Santiago, Chile}
-      {Data Scientist and Full-stack Developer}{July 2019 -- January 2021}
+      {Data Scientist and Full-stack Developer}{Jul 2019 -- Jan 2021}
       \resumeItemListStart
         \resumeItem{Data and NLP projects}
           {Construction of a topic detection system using Transformer embeddings to analyze the 2019 participatory meeting of ``Lxs 400'' around the new Constitution, and development of an OCR + Regex-based system to extract text from automotive credit promissory notes.}
@@ -186,7 +183,7 @@ Experience leading technical teams, coordinating with clients, and transforming 
 
     \resumeSubheading
       {Acción Circular}{Santiago, Chile}
-      {Full-stack Developer}{April 2019 -- July 2019}
+      {Full-stack Developer}{Apr 2019 -- Jul 2019}
       \resumeItemListStart
         \resumeItem{Recyclable waste management}
           {Design and implementation of software to manage waste collection.}
@@ -194,23 +191,18 @@ Experience leading technical teams, coordinating with clients, and transforming 
 
   \resumeSubHeadingListEnd
 
-
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{Word Embeddings Fairness Evaluation Framework (January 2020 -- June 2025)}
+    \resumeSubItem{Word Embeddings Fairness Evaluation Framework (Jan 2020 -- Jun 2025)}
       {Leadership and development of a library for measuring and mitigating gender, ethnic, and religious biases in word embedding models (precursors to language models). 2 published papers, 182 GitHub stars. Repository: \href{https://github.com/dccuchile/wefe}{GitHub} | Documentation: \href{https://wefe.readthedocs.io/en/latest/}{Documentation}}
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Computer Engineering (Civil)}{Santiago, Chile}
-      {Universidad de Chile}{2013 -- 2019}
-    \resumeSubheading
-      {Master of Computer Science}{Santiago, Chile}
-      {Universidad de Chile}{2019 -- 2020}
+    \resumeEducation{Computer Engineering (Civil)}{Universidad de Chile, Santiago, Chile}{2013 -- 2019}
+    \resumeEducation{Master of Computer Science}{Universidad de Chile, Santiago, Chile}{2019 -- 2020}
   \resumeSubHeadingListEnd
 
 %-----------PUBLICATIONS-----------------
@@ -222,32 +214,33 @@ Experience leading technical teams, coordinating with clients, and transforming 
       {Pablo Badilla, Felipe Bravo-Marquez, Jorge Pérez. \textit{Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence (IJCAI-20)}, pp. 430--436, 2020. \href{https://doi.org/10.24963/ijcai.2020/60}{DOI}}
   \resumeSubHeadingListEnd
 
-%--------PROGRAMMING SKILLS------------
+%-----------SKILLS-----------------
  \section{Skills and Tools}
  \resumeSubHeadingListStart
-    \resumeSubItem{Languages}{Native Spanish, B2 English TOEFL-ITP}
     \resumeSubItem{Leadership and architecture}{Technical leadership, software architecture, scalable systems design, mentoring, technical project management, and technology transfer}
-    \resumeSubItem{Generative AI and LLMs}{LLMs, RAG, conversational agents, LangChain, LangGraph, Langfuse, OpenAI APIs, Gemini, Azure, and GitHub Copilot}
-    \resumeSubItem{Data Science and Machine Learning}{Python, NumPy, Pandas, SQL, BigQuery, Spark, Databricks, Scikit-Learn, XGBoost, LightGBM, PyTorch, and Hugging Face}
-    \resumeSubItem{Backend and software development}{FastAPI, SQLAlchemy, Pydantic, Asyncio, concurrency, dependency injection, JavaScript, systems integration, testing, and full-stack development}
-    \resumeSubItem{Cloud, MLOps, and infrastructure}{Google Cloud Platform, Vertex AI, Docker, Kubeflow, GitHub Actions, GitLab CI, and MLOps practices}
-    \resumeSubItem{Tools and methodologies}{Scrum, CI/CD, static analysis, type checking, and software development best practices}
+    \resumeSubItem{Generative AI and LLMs}{LLMs, RAG, conversational agents, multi-agent systems, MCP (Model Context Protocol), LLM evaluation, vector databases, LangChain, LangGraph, Langfuse (LLM observability), and OpenAI and Gemini APIs}
+    \resumeSubItem{Data Science and Machine Learning}{Python, NumPy, Pandas, SQL, PostgreSQL, BigQuery, Spark, Databricks, Scikit-Learn, XGBoost, LightGBM, PyTorch, and Hugging Face}
+    \resumeSubItem{Backend and software development}{FastAPI, SQLAlchemy, Pydantic, Asyncio, JavaScript, systems integration, testing, and full-stack development}
+    \resumeSubItem{Cloud, MLOps, and infrastructure}{Google Cloud Platform, AWS, Vertex AI, Docker, Kubeflow, Git, GitHub Actions, GitLab CI, and MLOps practices}
+    \resumeSubItem{Tools and methodologies}{Scrum, CI/CD, and software development best practices}
  \resumeSubHeadingListEnd
 
- %-----------PROJECTS-----------------
+ %-----------ADDITIONAL-----------------
 \section{Additional Information}
   \resumeSubHeadingListStart
-    \resumeSubItemNoColon{Graduated with Highest Distinction in Engineering and Master's degree}{}
+    \resumeSubItemNoColon{Graduated with Highest Distinction in Engineering and Master's degree.}{}
+    \resumeSubItem{Languages}
+      {Native Spanish, B2 English TOEFL-ITP}
     \resumeSubItem{Outstanding Student in 2016 and 2018}
-      {Faculty of Physical and Mathematical Sciences, Universidad de Chile}
+      {Faculty of Physical and Mathematical Sciences, Universidad de Chile.}
     \resumeSubItem{Undergraduate Thesis Advisor}
-      {Implementation of a bias mitigation module in word embedding models in WEFE}
+      {Implementation of a bias mitigation module in word embedding models in WEFE.}
     \resumeSubItem{Guest Lecturer}
       {Talks on Machine Learning Operations and for various undergraduate and graduate courses at Universidad de Chile.}
     \resumeSubItem{Microsoft College Code Competition}
       {Third place in the Microsoft College Code Competition 2018.}
     \resumeSubItem{Paper Reviewer}
-      {Secondary reviewer for the conference: The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)}
+      {Secondary reviewer for the conference: The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021).}
   \resumeSubHeadingListEnd
 
 %-------------------------------------------
