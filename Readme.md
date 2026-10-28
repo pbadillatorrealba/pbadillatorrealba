@@ -19,7 +19,7 @@ I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https:
 <br>
 
 <p align="center">
-    <a href="https://www.linkedin.com/in/pablo-badilla-torrealba-473b2315b/">
+    <a href="https://www.linkedin.com/in/pablo-badilla-torrealba/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
     <a href="mailto:pbadilla.torrealba@gmail.com">
@@ -40,7 +40,7 @@ I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https:
 - 🏛️ I currently **lead the technology transfer area at [IDIA](https://idia.uchile.cl/)**, an initiative that brings together the main FCFM departments (DIE, DII, DCC, DIM) to articulate research, technology transfer, teaching, and project capabilities at Universidad de Chile.
 - 🧑‍🎓 I'm alumni of the [RELELA](https://relela.com/) (Representations for Learning and Language ) research group of the University of Chile.
 - 🌟 I was the main developer of [WEFE: The Word Embeddings Fairness Evaluation Framework](https://wefe.readthedocs.io/en/latest/), an open source library for measuring and mitigating bias in word embedding models. 2 papers published and 182 GitHub stars.
-- 📹 I have been several times part-time lecturer at the University of Chile. For the MDS7202 Scientific Programming Lab for Data Science material, check out the videos at the following [youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS) and the course material [here](https://github.com/pbadillatorrealba/MDS7202).
+- 📹 I have been several times part-time lecturer at the University of Chile, most recently teaching an AI agents course (from fundamentals to RAG, multi-agent systems and evaluation) for the DCC's PEC together with IDIA. For the MDS7202 Scientific Programming Lab for Data Science material, check out the videos at the following [youtube list](https://www.youtube.com/playlist?list=PLIaUi-1jO5b4PztTeatJFQO1QeQwGo3FS) and the course material [here](https://github.com/pbadillatorrealba/MDS7202).
 - 🥕 I really enjoy cooking and outdoor sports such as cycling or hiking.
 - 📸 I also like photography, but I still have a lot to learn!
 
@@ -48,10 +48,16 @@ I live in Santiago de Chile and I work currently as **Tech Lead at [IDIA](https:
 
 Some places I've worked and interesting things I've done:
 
+- **[IDIA](https://idia.uchile.cl/), Universidad de Chile** · Tech Lead · Apr 2026 – Present
+  - Technical coordination and evaluation of AI and data projects for the faculty, research centers and private companies; talks on MLOps and AI-assisted programming.
+  - Agentic platform for generating routines based on kinesiology recommendations.
+  - Advisory for a shipping company on an agentic system for commercial queries about the Chilean export market.
+  - Coordinated the Tornados project (a CR2 challenge) at AWS's Breaking Barriers hackathon in Chile, and mentored on AI.
+  - Automated extraction of ~50 cultural indicators for the Undersecretariat of Culture (RAG pipeline, management app and public dashboard).
 - **Banco Falabella** · Data Scientist · Aug 2024 – Apr 2026
   - AI agents for products & operations across Chile, Colombia, Mexico and Peru — 100k+ monthly interactions, 80% cost reduction.
   - Concurrent conversation server library; first AI initiative published by the bank.
-- **DashAI** · Tech Lead · Jan 2023 – Jun 2024
+- **[DashAI](https://github.com/DashAISoftware/DashAI)** · Tech Lead · Jan 2023 – Jun 2024
   - Technical leadership of a 5-person team; defined architecture, ran ceremonies, built core components (plugin registry, DI, CI/CD).
 - **Walmart Chile** · Machine Learning Engineer · Apr 2023 – Apr 2024
   - Call center demand forecasting model (60% → 20% error); CLV model for Marketing; queue wait-time simulation.
@@ -88,9 +94,9 @@ Generative AI
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangFuse](https://img.shields.io/badge/LangFuse-000000?style=flat-square&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 Data Science and Machine Learning Frameworks
 
@@ -116,6 +122,7 @@ Backend
 Environments, Containers, Deploy, CI, etc.
 
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
 ![Github Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
